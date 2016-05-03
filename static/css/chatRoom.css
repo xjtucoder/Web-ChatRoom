@@ -1,0 +1,131 @@
+html{
+    color:#000;
+    background-color:#fff;
+    font-family:楷体;
+}
+#main{
+    border:gray solid 1px;
+    width:800px;
+    height:700px;
+    position:absolute;
+    top:100px;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    background-color:#cccccc;
+}
+#leftBlock{
+    position:relative;
+    top:-17px;
+    left:0;
+    width:200px;
+    height:701px;
+    border-right:gray solid 1px;
+    background-color:#3399ff;
+}
+#leftBlock img{
+    width:30px;
+    height:30px;
+    padding-right:5px;
+    vertical-align:middle;
+    
+}
+#leftBlock li{
+    position: relative;
+    left: -40px;
+    width: 200px;
+    list-style: none;
+    background-color: #3399ff;
+    cursor:pointer;
+}
+#topBlock{
+    position:relative;
+    top:-718px;
+    left:201px;
+    width:599px;
+    height:40px;
+    border-bottom:gray solid 2px;
+}
+#topBlock h2{
+    line-height:20px;
+    padding-left:15px;
+}
+#textInput{
+    position:relative;
+    top:-5px;
+    left:-5px;
+    width:590px;
+    height:132px;
+}
+#textList{
+    position:relative;
+    padding:5px 5px;
+    top:-719px;
+    left:201px;
+    width:586px;
+    height:400px;
+    overflow:auto;
+    font-size:18px;
+}
+.myMsg{
+    clear:both;
+    float:right;
+}
+.otMsg{
+    margin-top:15px;
+    clear:both;
+}
+.headInfo{
+    margin-top:15px;
+    font-size:13px;
+}
+.myheadInfo{
+    margin-top:15px;
+    font-size:13px;
+    text-align:right;
+}
+.content{
+    margin-top:5px;
+}
+.myContent{
+    float:right;
+    margin-top:5px;
+}
+#textArea{
+    position:relative;
+    top:-5px;
+    right:6px;
+    height:168px;
+    width:593px;
+    font-size:19px;
+    font-family:楷体;
+}
+#textBottom{
+    position:relative;
+    top:-710px;
+    left:201px;
+    width:591px;
+    height:237px;
+    border-top:1px gray solid;
+}
+.textStyle{
+    font-size:20px;
+    padding:5px 5px;
+    border-radius:4px;
+}
+#username{
+    position:relative;
+    left:10px;
+    bottom:-40px;
+}
+#send{
+    position:relative;
+    right:-320px;
+    bottom:-40px;
+}
+#delete{
+    position:relative;
+    bottom:-40px;
+    right:-200px;
+}
